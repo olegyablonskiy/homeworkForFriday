@@ -18,8 +18,8 @@
             required>
         </label>    
         <br>
-        <label>Years:
-            <input type="years" name="client-years" placeholder="Years"
+        <label>Age:
+            <input type="text" name="client-years" placeholder="Age"
             required>
         </label>
         <br>
@@ -41,27 +41,31 @@
             <input type="radio" name="client-gender" value="other">Other
         </label>
         <br><br>
-        <label>Gender:</label>
+        <label>Age category:</label>
         <br>
         <label>
-            <input type="radio" name="client-gender" value="male" checked>Male
+            <input type="radio" name="category" value="pupil" checked>Pupil
         </label>
         <br>
         <label>
-            <input type="radio" name="client-gender" value="female">Female
+            <input type="radio" name="category" value="teenager">Teenager
         </label>
         <br>
         <label>
-            <input type="radio" name="client-gender" value="other">Other
+            <input type="radio" name="category" value="student">Student
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="category" value="adult">Adult
         </label>
         <br><br>
         <label>Pet kind:</label>
         <br>
         <select name="pet-kind">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="fiat">Fiat</option>
-            <option value="audi">Audi</option>
+            <option value="flying">Flying one</option>
+            <option value="ground-running">Regular ground habbitat</option>
+            <option value="water">Water living one</option>
+            <option value="other">Other</option>
         </select>
         <br><br>
         <label>Wich exactly pet do you have?</label>
@@ -71,11 +75,10 @@
                 <option value="Cat">
                 <option value="Dog">
                 <option value="Fish">
-                <option value="Iguana">
+                <option value="Ferret">
                 <option value="Parrot">
                 <option value="other">
             </datalist>
-        </input>
         <br><br>
         <label> Why do you love your pet?
             <br>
